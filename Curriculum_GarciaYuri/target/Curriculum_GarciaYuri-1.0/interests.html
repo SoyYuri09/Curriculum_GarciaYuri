@@ -4,21 +4,29 @@
     <head>
         <title>Intereses personales</title>
         <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="imgs/icono.png">
+        <link rel="stylesheet" href="./styles/global.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
-            <h1>Intereses personales</h1>
+            <div id="seccion-navegacion">
+                <h1 id="titulo">Intereses Personales</h1>
+                <nav>
+                    <a href="./index.html">🏠︎</a>
+                    <a href="./interests.html">Intereses personales</a>
+                    <a href="./schedule.html">Horario de clases</a>
+                </nav>
+            </div>
         </header>
-        <div id="seccion-navegacion">
-            <nav>
-                <a href="./index.html">Inicio</a>
-                <a href="./schedule.html">Horario de clases</a>
-            </nav>
+        <div id="seccion-imgs-intereses">
+            <img id="maestria" src="./imgs/maestria.png" alt="maestría"/>
+            <img id="informatica" src="./imgs/informática.png" alt="informática"/>
+            <img id="viajar" src="./imgs/viajar.png" alt="viajar"/>
         </div>
         <div id="seccion-intereses-personales">
-            <h4>Listado de mis intereses personales</h4>
-            <ul>
+            <h4 id="subtitulo">Listado de mis intereses personales</h4>
+            <ul class="parrafo">
                 <li>
                     Viajar para conocer lugares dentro todo méxico como alrededor del mundo.
                 </li>
@@ -32,9 +40,9 @@
                 </li>
             </ul>
         </div>
-        <div>
-            <h4>Listado de mis intereses profesionales</h4>
-            <ul>
+        <div id="seccion-intereses-profesionales">
+            <h4 id="subtitulo">Listado de mis intereses profesionales</h4>
+            <ul class="parrafo">
                 <li>
                     Tener la oportunidad de estudiar fuera de mi ciudad.
                 </li>
@@ -52,7 +60,7 @@
             </ul>
         </div>
         <footer>
-            <h4>Yuri Germán García López - 2025</h4>
+            <h4 id="copyright">Yuri Germán García López - 2025</h4>
         </footer>
     </body>
 </html>

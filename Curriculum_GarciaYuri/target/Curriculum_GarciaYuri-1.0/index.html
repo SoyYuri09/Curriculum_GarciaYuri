@@ -4,25 +4,36 @@
     <head>
         <title>Currículum Yuri GL</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" type="image/png" href="imgs/icono.png">
+        <link rel="stylesheet" href="./styles/global.css">
     </head>
     <body>
         <header>
-            <h1>Currículum Vitae - Yuri García</h1>
-            <img src="./imgs/selfie.jpg" width="150" alt="selfie"/>
-            <nav>
-                <a href="https://github.com/SoyYuri09" target="blank_">Perfil de Github</a>
-            </nav>
-            <p><b>Correo electrónico:</b> yuri.garcia252583@potros.itson.edu.mx</p>
+            <div id="seccion-navegacion">
+                <h1 id="titulo">Currículum Vitae - Yuri García</h1>
+                <nav>
+                    <a href="./index.html">🏠︎</a>
+                    <a href="./interests.html">Intereses personales</a>
+                    <a href="./schedule.html">Horario de clases</a>
+                </nav>
+            </div>
         </header>
-        <div id="seccion-navegacion">
+        <div id="seccion-perfil">
             <nav>
-                <a href="./interests.html">Intereses personales</a>
-                <a href="./schedule.html">Horario de clases</a>
+                <a href="https://www.instagram.com/yuri_gl05/" target="blank_">
+                    <img id="selfie" src="./imgs/selfie.jpg" alt="selfie"/>
+                </a>
             </nav>
+            <a href="https://github.com/SoyYuri09" target="blank_">
+                <img id="logo-github" src="./imgs/github.png" alt="github"/>
+            </a>
+            <p id="parrafo-perfil">Perfil de GitHub</p>
+            <p id="parrafo-perfil"><b>Correo electrónico:</b> yuri.garcia252583@potros.itson.edu.mx</p>
+            <img id="cube" src="./imgs/cube.gif" alt="cube-gif"/>
         </div>
         <div id="seccion-biografia">
-            <h2>Biografía</h2>
-            <p>
+            <h2 id="subtitulo">Biografía</h2>
+            <p class="parrafo">
                 Mi nombre es <b><i>Yuri Germán García López</i></b>, vivo en Cd. Obregón Sonora
                 actualmente tengo 19 años, me encuentro cursando el 5to semestre 
                 de la carrera de <b><i>Ingeniería en Software</i></b> en el <b><i>Instituto Tecnológico 
@@ -30,8 +41,8 @@
             </p>
         </div>
         <div id="seccion-experiencia-laboral">
-            <h2>Experiencia laboral</h2>
-            <p>
+            <h2 id="subtitulo">Experiencia laboral</h2>
+            <p class="parrafo">
                 En cuanto a mi experiencia laboral más destacable, puedo decir que tengo 
                 conocimiento y habilidad sobre la <b><i>edición de video</i></b>, tanto es así que gracias 
                 a ello tuve la oportunidad de trabajar realizando proyectos pequeños de edición
@@ -40,24 +51,24 @@
             </p>
         </div>
         <div id="seccion-educacion">
-            <h2>Educación</h2>
-            <p>
+            <h2 id="subtitulo">Educación</h2>
+            <p class="parrafo">
                 A lo largo de mi vida he obtenido educación en diferentes escuelas:
             </p>
             <ul>
-                <li>
+                <li class="parrafo">
                     <b>Primaria:</b> Estudié en una escuela privada llamada
                     <b><i>Colegio del Carmen</i></b> por 6 años, dentro de los conocimientos
                     más importantes que adquirí durante esta estapa, destaco
                     el aprendizaje sobre el <b><i>uso de computadoras y del internet</i></b>.
                 </li>
-                <li>
+                <li class="parrafo">
                     <b>Secundaria:</b> Estudié en la secundaria <b><i>José Rafael Campoy #21</i></b>
                     en el turno vespertino, obteniendo <b><i> diploma a la excelencia</i></b> de mi generación 
                     al graduarme, además, durante este tiempo pude aprender temas sobre 
                     <b><i>computación e informática</i></b>, decidiéndome a estudiar y dedicarme a algo relacionado a ello.
                 </li>
-                <li>
+                <li class="parrafo">
                     <b>Preparatoria:</b> Estudié en la preparatoria <b><i>CBTis #37</i></b> en el turno matutino,
                     al entrar a la preparatoria decidí tomar como primera opción estudiar la <b><i>especialidad
                     en programación</i></b> debido a mi gran interés por el área, durante esta etapa de mi vida
@@ -69,7 +80,7 @@
                     pude obtener un reconocimiento por presentar mi proyecto final en equipo ante la academia
                     de programación.
                 </li>
-                <li>
+                <li class="parrafo">
                     <b>Universidad:</b> Actualmente me encuentro estudiando el 5to semestre de la 
                     carrera Ingeniería en Software en el Instituto Tecnológico de Sonora, donde he podido
                     obtener muy buenos conocimientos sobre el manejo de lógica en programación orientada a objetos
@@ -80,19 +91,19 @@
             </ul>
         </div>
         <div id="seccion-idiomas">
-            <h2>Idiomas</h2>
+            <h2 id="subtitulo">Idiomas</h2>
             <ul>
-                <li>
+                <li class="parrafo">
                     <b>Español:</b> Primeramente tengo un manejo completo del español al ser mi lengua materna.
                 </li>
-                <li>
+                <li class="parrafo">
                     <b>Inglés:</b> Cuento con un nivel avanzado de inglés C1 demostrando que tengo
                     buen manejo del idioma.
                 </li>
             </ul>
         </div>
         <footer>
-            <h4>Yuri Germán García López - 2025</h4>
+            <h4 id="copyright">Yuri Germán García López - 2025</h4>
         </footer>
     </body>
 </html>
