@@ -1,0 +1,186 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 sep 2025, 11:04:01 p.m.
+    Author     : Usuario
+*/
+
+#titulo {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 40px;
+    color:#3684B0;
+    text-align: left;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#seccion-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;    
+    background: #FFF1D7;
+    box-shadow: 0 0 20px 10px #fff1d7;
+    margin-bottom:50px;
+}
+
+#seccion-navegacion nav a{
+    margin-left: 22px;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#seccion-navegacion nav a:hover{
+    color:#3684B0
+}
+
+#seccion-perfil{
+    float: right;
+    width: 20%;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+}
+
+#seccion-biografia,
+#seccion-experiencia-laboral,
+#seccion-educacion,
+#seccion-idiomas{
+    float: left;
+    width: 75%;
+    margin: 0 30px 0 20px;
+}
+
+#seccion-idiomas{
+    margin-bottom: 40px;
+}
+
+#subtitulo{
+    color: #8CAEC1E3;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+#maestria{
+    width: 180px;
+}
+
+#informatica{
+    width: 280px;
+}
+
+#viajar{
+    width: 180px;
+}
+
+#seccion-imgs-intereses{
+    float: right;
+    width: 20%;
+    text-align: center;
+    margin: 0 150px 20px 20px;
+}
+
+#seccion-intereses-personales,
+#seccion-intereses-profesionales{
+    float: left;
+    width: 55%;
+    margin: 0 30px 0 70px;
+}
+
+#selfie{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+#logo-github{
+    width: 50px;
+}
+
+body{
+    background: linear-gradient(-45deg, white, #E8F8FC);
+}
+
+#parrafo-perfil {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.parrafo {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+footer {
+    width: auto;
+    height: 80px;
+    padding: 10px;
+    background-color: #fff1d7;
+    box-shadow: 0 0 20px 10px #fff1d7;
+    margin-top: 50px;
+    clear: both;
+}
+
+#copyright{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#cube{
+    widht: 50px;
+}
+
+#seccion-horario {
+    padding: 20px;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+th,td {
+    border: 1px solid #3684B0;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    padding: 10px;
+    background-color: #3684B0;
+    color: white;
+    font-size: 20px;
+}
+
+td {
+    padding: 35px;
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td { /* No sabía que se podía aplicar estilos diferentes a filas pares o impares que chilo!!*/
+    background-color: #e6f2f9; 
+}
+
+td:empty {
+    background-color: #fff;
+}
+
+tr:hover td {
+    background-color: #d1e7f5;
+}
+
+thead {
+    caption-side: top;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
