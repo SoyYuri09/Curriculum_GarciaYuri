@@ -1,9 +1,179 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 29 sep 2025, 11:04:10 p.m.
-    Author     : Usuario
-*/
+@import url("global.css");
 
+#titulo {
+    font-family: var(--font-titulo);
+    font-size: 40px;
+    color: var(--color-titulo);
+    text-align: left;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#seccion-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;    
+    background: var(--bg-color-navegacion);
+    box-shadow: 0 0 20px 10px #fff1d7;
+    margin-bottom:50px;
+}
+
+#seccion-navegacion nav a{
+    margin-left: 22px;
+    font-family: var(--font-navegacion);
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#seccion-navegacion nav a:hover{
+    color: var(--nav-a-hover);
+}
+
+#seccion-perfil{
+    float: right;
+    width: 20%;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+}
+
+#seccion-biografia,
+#seccion-experiencia-laboral,
+#seccion-educacion,
+#seccion-idiomas{
+    float: left;
+    width: 75%;
+    margin: 0 30px 0 20px;
+}
+
+#seccion-idiomas{
+    margin-bottom: 40px;
+}
+
+#subtitulo{
+    color: var(--color-subtitulo);
+    font-family: var(--font-navegacion);
+    font-size: 30px;
+    text-align: justify;
+}
+
+#maestria{
+    width: 180px;
+}
+
+#informatica{
+    width: 280px;
+}
+
+#viajar{
+    width: 180px;
+}
+
+#seccion-imgs-intereses{
+    float: right;
+    width: 20%;
+    text-align: center;
+    margin: 0 150px 20px 20px;
+}
+
+#seccion-intereses-personales,
+#seccion-intereses-profesionales{
+    float: left;
+    width: 55%;
+    margin: 0 30px 0 70px;
+}
+
+#selfie{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+#logo-github{
+    width: 50px;
+}
+
+body{
+    background: var(--body-bg-gradient);
+}
+
+#parrafo-perfil {
+    font-family: var(--font-parrafo);
+    font-size: 22px;
+    text-align: center;
+}
+
+.parrafo {
+    font-family: var(--font-parrafo);
+    font-size: 20px;
+    text-align: justify;
+}
+
+footer {
+    width: auto;
+    height: 80px;
+    padding: 10px;
+    background-color: var(--bg-color-navegacion);
+    box-shadow: 0 0 20px 10px #fff1d7;
+    margin-top: 50px;
+    clear: both;
+}
+
+#copyright{
+    font-family: var(--font-navegacion);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#cube{
+    width: 175px;
+}
+
+#seccion-horario {
+    padding: 20px;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: var(--font-parrafo);
+}
+
+th,td {
+    border: var(--table-border);
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    padding: 10px;
+    background-color: var(--color-titulo);
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+td {
+    padding: 35px;
+    background-color: var(--td-bg);
+}
+
+tr:nth-child(even) td { /* No sabía que se podía aplicar estilos diferentes a filas pares o impares que chilo!!*/
+    background-color: var(--tr-nth-child-even-bg); 
+}
+
+td:empty {
+    background-color: var(--td-empty-bg);
+}
+
+tr:hover td {
+    background-color: var(--tr-hover-bg);
+}
+
+thead {
+    caption-side: top;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
